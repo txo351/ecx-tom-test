@@ -1,5 +1,16 @@
 {
   "project": "DA Block Collection",
   "editUrlLabel": "Document Authoring",
-  "editUrlPattern": "https://da.live/edit#/{{org}}/{{site}}{{pathname}}"
+  "editUrlPattern": "https://da.live/edit#/{{org}}/{{site}}{{pathname}}",
+  "plugins": [
+    {
+      "id": "blocks",
+      "title": "Blocks",
+      "url": "/tools/sidekick/blocks/picker.html",
+      "isPalette": true,
+      "paletteRect": "top: 50px; bottom: 0; right: 0; width: 350px;",
+      "environments": ["edit"],
+      "excludedPaths": []
+    }
+  ]
 }
